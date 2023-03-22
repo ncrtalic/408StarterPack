@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noah Crtalic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Clickable Dropdown</h1>
+    <p>Click on the button to open the dropdown menu.</p>
+
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#name" onclick="getName()"> NAME </a>
+        <a href="#address" onclick="getAddress()"> ADDRESS </a>
+        <a href="#business-hours" onclick="getHours()"> BUSINESS HOURS </a>
+        <a href="#menu" onclick="getMenu()">MENU</a>
+        <a href="#services" onclick="getFeatures()">
+          SERVICES/FEATURES
+        </a>
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
